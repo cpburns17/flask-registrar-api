@@ -39,7 +39,7 @@ def delete_student(id: int):
 
 
 @app.post("/enrollments")
-def enroll_student(id: int):
+def enroll_student():
     return make_response(jsonify({}), 200)
 
 
