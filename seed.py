@@ -14,7 +14,7 @@ def create_students() -> list[Student]:
         fname = fake.name().split(" ")[0]
         lname = fake.name().split(" ")[1]
         students.append(
-            Student(fname=fname, lname=lname, grad_year=randint(2023, 2027))
+            Student(fname=fname, lname=lname, grad_year=randint(2024, 2027))
         )
     return students
 
